@@ -1,0 +1,2450 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="50" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>83, 153</c>
+            </r>
+            <r>
+              <c>201, 74</c>
+            </r>
+            <r>
+              <c>291, 245</c>
+            </r>
+            <r>
+              <c>269, 271</c>
+            </r>
+            <r>
+              <c>222, 337</c>
+            </r>
+            <r>
+              <c>291, 271</c>
+            </r>
+            <r>
+              <c>173, 346</c>
+            </r>
+            <r>
+              <c>189, 184</c>
+            </r>
+            <r>
+              <c>170, 240</c>
+            </r>
+            <r>
+              <c>127, 96</c>
+            </r>
+            <r>
+              <c>76, 46</c>
+            </r>
+            <r>
+              <c>92, 182</c>
+            </r>
+            <r>
+              <c>107, 160</c>
+            </r>
+            <r>
+              <c>311, 142</c>
+            </r>
+            <r>
+              <c>247, 321</c>
+            </r>
+            <r>
+              <c>303, 295</c>
+            </r>
+            <r>
+              <c>141, 310</c>
+            </r>
+            <r>
+              <c>147, 70</c>
+            </r>
+            <r>
+              <c>48, 41</c>
+            </r>
+            <r>
+              <c>40, 276</c>
+            </r>
+            <r>
+              <c>46, 313</c>
+            </r>
+            <r>
+              <c>175, 279</c>
+            </r>
+            <r>
+              <c>149, 177</c>
+            </r>
+            <r>
+              <c>181, 189</c>
+            </r>
+            <r>
+              <c>347, 163</c>
+            </r>
+            <r>
+              <c>215, 135</c>
+            </r>
+            <r>
+              <c>103, 159</c>
+            </r>
+            <r>
+              <c>222, 304</c>
+            </r>
+            <r>
+              <c>201, 184</c>
+            </r>
+            <r>
+              <c>272, 354</c>
+            </r>
+            <r>
+              <c>113, 74</c>
+            </r>
+            <r>
+              <c>59, 231</c>
+            </r>
+            <r>
+              <c>302, 251</c>
+            </r>
+            <r>
+              <c>127, 312</c>
+            </r>
+            <r>
+              <c>259, 259</c>
+            </r>
+            <r>
+              <c>41, 244</c>
+            </r>
+            <r>
+              <c>43, 238</c>
+            </r>
+            <r>
+              <c>193, 172</c>
+            </r>
+            <r>
+              <c>147, 353</c>
+            </r>
+            <r>
+              <c>332, 316</c>
+            </r>
+            <r>
+              <c>353, 218</c>
+            </r>
+            <r>
+              <c>100, 115</c>
+            </r>
+            <r>
+              <c>111, 58</c>
+            </r>
+            <r>
+              <c>210, 108</c>
+            </r>
+            <r>
+              <c>101, 175</c>
+            </r>
+            <r>
+              <c>185, 98</c>
+            </r>
+            <r>
+              <c>256, 311</c>
+            </r>
+            <r>
+              <c>142, 41</c>
+            </r>
+            <r>
+              <c>68, 228</c>
+            </r>
+            <r>
+              <c>327, 194</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="162" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Field1</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>
+          </RootName>
+          <Delimeters value="," />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field1" selected="False" />
+            <SelectField field="1" selected="True" rename="X" type="Int16" size="2" />
+            <SelectField field="2" selected="True" rename="Y" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="258" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"Field1","1","2"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="162" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Coordinate</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType size="2">String</FieldType>
+          <FieldSize>2</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="258" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="X" action="Min" rename="Min_X" />
+            <SummarizeField field="Y" action="Min" rename="Min_Y" />
+            <SummarizeField field="X" action="Max" rename="Max_X" />
+            <SummarizeField field="Y" action="Max" rename="Max_Y" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
+        <Position x="450" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name />
+          <CreateField_Name>newx</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <Expression_Init>0</Expression_Init>
+          <Expression_Cond>newx &lt;= max_x</Expression_Cond>
+          <Expression_Loop>newx + 1</Expression_Loop>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
+        <Position x="546" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name />
+          <CreateField_Name>newy</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <Expression_Init>0</Expression_Init>
+          <Expression_Cond>newy &lt;= max_y</Expression_Cond>
+          <Expression_Loop>newy + 1</Expression_Loop>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Min_X" selected="True" type="Int16" size="2" />
+            <SelectField field="Min_Y" selected="True" type="Int16" size="2" />
+            <SelectField field="Max_X" selected="True" type="Int16" size="2" />
+            <SelectField field="Max_Y" selected="True" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="726" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="X" />
+            <Field field="Y" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="X" />
+            <Field field="Y" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_X" selected="False" rename="Right_X" input="Right_" />
+                <SelectField field="Right_Y" selected="False" rename="Right_Y" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="642" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Min_X" selected="False" />
+            <SelectField field="Min_Y" selected="False" />
+            <SelectField field="Max_X" selected="False" />
+            <SelectField field="Max_Y" selected="False" />
+            <SelectField field="newx" selected="True" rename="X" />
+            <SelectField field="newy" selected="True" rename="Y" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="834" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1, 1</c>
+            </r>
+            <r>
+              <c>1, 6</c>
+            </r>
+            <r>
+              <c>8, 3</c>
+            </r>
+            <r>
+              <c>3, 4</c>
+            </r>
+            <r>
+              <c>5, 5</c>
+            </r>
+            <r>
+              <c>8, 9</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Sample Data</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="930" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([Coordinate])</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>Coordinate</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-12-05 22:16:42</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2018-12-05 22:16:42</StartDate>
+              <EndDate>2018-12-05 22:16:42</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Coordinate])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="83">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1230" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="X" action="GroupBy" rename="X" />
+            <SummarizeField field="Y" action="GroupBy" rename="Y" />
+            <SummarizeField field="Distance" action="Sum" rename="Sum_Distance" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="86">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="1050" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Allow</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Source_Coordinate" selected="True" rename="Source_Coordinate" input="Source_" />
+                <SelectField field="Source_X" selected="True" rename="Source_X" input="Source_" />
+                <SelectField field="Source_Y" selected="True" rename="Source_Y" input="Source_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="87">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1134" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="abs(x-[Source_X])+abs(y-[Source_Y])" field="Distance" size="8" type="Int64" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Distance = abs(x-[Source_X])+abs(y-[Source_Y])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="88">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1326" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Sum_Distance] &lt; 10000</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&lt;</Operator>
+            <Field>Sum_Distance</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-12-05 22:50:26</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>10000</Operand>
+              <StartDate>2018-12-05 22:50:26</StartDate>
+              <EndDate>2018-12-05 22:50:26</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Sum_Distance] &lt; 10000</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="90">
+      <GuiSettings>
+        <Position x="1422" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="91">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1518" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NJOHNS~1\AppData\Local\Temp\Engine_27148_17891e3d47cc4503ae6abe0c4cb10f60_\Engine_20540_f77d22a2db414c0d88cd66250071cdeb_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Part 2</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="92">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1109" y="453.9994" width="101.7502" height="19" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Part 1</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="1134" y="498.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Allow</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Source_Coordinate" selected="True" rename="Source_Coordinate" input="Source_" />
+                    <SelectField field="Source_X" selected="True" rename="Source_X" input="Source_" />
+                    <SelectField field="Source_Y" selected="True" rename="Source_Y" input="Source_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1218" y="497.9994" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[X] = [Source_X] &amp;&amp; [Y]=[Source_Y]</Expression>
+              <Mode>Custom</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>X</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-12-05 22:00:25</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2018-12-05 22:00:25</StartDate>
+                  <EndDate>2018-12-05 22:00:25</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[X] = [Source_X] &amp;&amp; [Y]=[Source_Y]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1314" y="510.0003" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="abs(x-[Source_X])+abs(y-[Source_Y])" field="Distance" size="8" type="Int64" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Distance = abs(x-[Source_X])+abs(y-[Source_Y])
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1518" y="521.9998" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Distance" action="Min" rename="Min_Distance" />
+                <SummarizeField field="Source_X" action="GroupBy" rename="Source_X" />
+                <SummarizeField field="Source_Y" action="GroupBy" rename="Source_Y" />
+                <SummarizeField field="Coordinate" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1794" y="534" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Count] &gt; 1</Expression>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>&gt;</Operator>
+                <Field>Count</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-12-05 22:07:02</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>1</Operand>
+                  <StartDate>2018-12-05 22:07:02</StartDate>
+                  <EndDate>2018-12-05 22:07:02</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Count] &gt; 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1890" y="558.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Source_X" />
+                <Field field="Source_Y" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Source_X" />
+                <Field field="Source_Y" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Distance" selected="False" input="Left_" />
+                    <SelectField field="Left_Count" selected="False" input="Left_" />
+                    <SelectField field="Left_Source_X" selected="True" input="Left_" />
+                    <SelectField field="Left_Source_Y" selected="True" input="Left_" />
+                    <SelectField field="Right_Coordinate" selected="True" input="Right_" />
+                    <SelectField field="Right_X" selected="False" input="Right_" />
+                    <SelectField field="Right_Y" selected="False" input="Right_" />
+                    <SelectField field="Right_Source_Coordinate" selected="False" input="Right_" />
+                    <SelectField field="Right_Source_X" selected="False" rename="Right_Source_X" input="Right_" />
+                    <SelectField field="Right_Source_Y" selected="False" rename="Right_Source_Y" input="Right_" />
+                    <SelectField field="Right_Distance" selected="False" rename="Right_Distance" input="Right_" />
+                    <SelectField field="Left_X" selected="False" input="Left_" />
+                    <SelectField field="Left_Y" selected="False" input="Left_" />
+                    <SelectField field="Left_Min_Distance" selected="False" input="Left_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1974" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Source_X" selected="True" rename="X" />
+                <SelectField field="Source_Y" selected="True" rename="Y" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="2166" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="Y" />
+              </GroupFields>
+              <HeaderField field="X" />
+              <DataField field="Coordinate" />
+              <Methods>
+                <Method method="Concat" />
+                <Separator>,</Separator>
+                <FieldSize value="2048" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Y" source="CrossTab:Group:Concat:" type="Int32" />
+                <Field name="0" size="2048" source="CrossTab:Header:X:0:Concat:" type="V_String" />
+                <Field name="1" size="2048" source="CrossTab:Header:X:1:Concat:" type="V_String" />
+                <Field name="2" size="2048" source="CrossTab:Header:X:2:Concat:" type="V_String" />
+                <Field name="3" size="2048" source="CrossTab:Header:X:3:Concat:" type="V_String" />
+                <Field name="4" size="2048" source="CrossTab:Header:X:4:Concat:" type="V_String" />
+                <Field name="5" size="2048" source="CrossTab:Header:X:5:Concat:" type="V_String" />
+                <Field name="6" size="2048" source="CrossTab:Header:X:6:Concat:" type="V_String" />
+                <Field name="7" size="2048" source="CrossTab:Header:X:7:Concat:" type="V_String" />
+                <Field name="8" size="2048" source="CrossTab:Header:X:8:Concat:" type="V_String" />
+                <Field name="9" size="2048" source="CrossTab:Header:X:9:Concat:" type="V_String" />
+                <Field name="10" size="2048" source="CrossTab:Header:X:10:Concat:" type="V_String" />
+                <Field name="11" size="2048" source="CrossTab:Header:X:11:Concat:" type="V_String" />
+                <Field name="12" size="2048" source="CrossTab:Header:X:12:Concat:" type="V_String" />
+                <Field name="13" size="2048" source="CrossTab:Header:X:13:Concat:" type="V_String" />
+                <Field name="14" size="2048" source="CrossTab:Header:X:14:Concat:" type="V_String" />
+                <Field name="15" size="2048" source="CrossTab:Header:X:15:Concat:" type="V_String" />
+                <Field name="16" size="2048" source="CrossTab:Header:X:16:Concat:" type="V_String" />
+                <Field name="17" size="2048" source="CrossTab:Header:X:17:Concat:" type="V_String" />
+                <Field name="18" size="2048" source="CrossTab:Header:X:18:Concat:" type="V_String" />
+                <Field name="19" size="2048" source="CrossTab:Header:X:19:Concat:" type="V_String" />
+                <Field name="20" size="2048" source="CrossTab:Header:X:20:Concat:" type="V_String" />
+                <Field name="21" size="2048" source="CrossTab:Header:X:21:Concat:" type="V_String" />
+                <Field name="22" size="2048" source="CrossTab:Header:X:22:Concat:" type="V_String" />
+                <Field name="23" size="2048" source="CrossTab:Header:X:23:Concat:" type="V_String" />
+                <Field name="24" size="2048" source="CrossTab:Header:X:24:Concat:" type="V_String" />
+                <Field name="25" size="2048" source="CrossTab:Header:X:25:Concat:" type="V_String" />
+                <Field name="26" size="2048" source="CrossTab:Header:X:26:Concat:" type="V_String" />
+                <Field name="27" size="2048" source="CrossTab:Header:X:27:Concat:" type="V_String" />
+                <Field name="28" size="2048" source="CrossTab:Header:X:28:Concat:" type="V_String" />
+                <Field name="29" size="2048" source="CrossTab:Header:X:29:Concat:" type="V_String" />
+                <Field name="30" size="2048" source="CrossTab:Header:X:30:Concat:" type="V_String" />
+                <Field name="31" size="2048" source="CrossTab:Header:X:31:Concat:" type="V_String" />
+                <Field name="32" size="2048" source="CrossTab:Header:X:32:Concat:" type="V_String" />
+                <Field name="33" size="2048" source="CrossTab:Header:X:33:Concat:" type="V_String" />
+                <Field name="34" size="2048" source="CrossTab:Header:X:34:Concat:" type="V_String" />
+                <Field name="35" size="2048" source="CrossTab:Header:X:35:Concat:" type="V_String" />
+                <Field name="36" size="2048" source="CrossTab:Header:X:36:Concat:" type="V_String" />
+                <Field name="37" size="2048" source="CrossTab:Header:X:37:Concat:" type="V_String" />
+                <Field name="38" size="2048" source="CrossTab:Header:X:38:Concat:" type="V_String" />
+                <Field name="39" size="2048" source="CrossTab:Header:X:39:Concat:" type="V_String" />
+                <Field name="40" size="2048" source="CrossTab:Header:X:40:Concat:" type="V_String" />
+                <Field name="41" size="2048" source="CrossTab:Header:X:41:Concat:" type="V_String" />
+                <Field name="42" size="2048" source="CrossTab:Header:X:42:Concat:" type="V_String" />
+                <Field name="43" size="2048" source="CrossTab:Header:X:43:Concat:" type="V_String" />
+                <Field name="44" size="2048" source="CrossTab:Header:X:44:Concat:" type="V_String" />
+                <Field name="45" size="2048" source="CrossTab:Header:X:45:Concat:" type="V_String" />
+                <Field name="46" size="2048" source="CrossTab:Header:X:46:Concat:" type="V_String" />
+                <Field name="47" size="2048" source="CrossTab:Header:X:47:Concat:" type="V_String" />
+                <Field name="48" size="2048" source="CrossTab:Header:X:48:Concat:" type="V_String" />
+                <Field name="49" size="2048" source="CrossTab:Header:X:49:Concat:" type="V_String" />
+                <Field name="50" size="2048" source="CrossTab:Header:X:50:Concat:" type="V_String" />
+                <Field name="51" size="2048" source="CrossTab:Header:X:51:Concat:" type="V_String" />
+                <Field name="52" size="2048" source="CrossTab:Header:X:52:Concat:" type="V_String" />
+                <Field name="53" size="2048" source="CrossTab:Header:X:53:Concat:" type="V_String" />
+                <Field name="54" size="2048" source="CrossTab:Header:X:54:Concat:" type="V_String" />
+                <Field name="55" size="2048" source="CrossTab:Header:X:55:Concat:" type="V_String" />
+                <Field name="56" size="2048" source="CrossTab:Header:X:56:Concat:" type="V_String" />
+                <Field name="57" size="2048" source="CrossTab:Header:X:57:Concat:" type="V_String" />
+                <Field name="58" size="2048" source="CrossTab:Header:X:58:Concat:" type="V_String" />
+                <Field name="59" size="2048" source="CrossTab:Header:X:59:Concat:" type="V_String" />
+                <Field name="60" size="2048" source="CrossTab:Header:X:60:Concat:" type="V_String" />
+                <Field name="61" size="2048" source="CrossTab:Header:X:61:Concat:" type="V_String" />
+                <Field name="62" size="2048" source="CrossTab:Header:X:62:Concat:" type="V_String" />
+                <Field name="63" size="2048" source="CrossTab:Header:X:63:Concat:" type="V_String" />
+                <Field name="64" size="2048" source="CrossTab:Header:X:64:Concat:" type="V_String" />
+                <Field name="65" size="2048" source="CrossTab:Header:X:65:Concat:" type="V_String" />
+                <Field name="66" size="2048" source="CrossTab:Header:X:66:Concat:" type="V_String" />
+                <Field name="67" size="2048" source="CrossTab:Header:X:67:Concat:" type="V_String" />
+                <Field name="68" size="2048" source="CrossTab:Header:X:68:Concat:" type="V_String" />
+                <Field name="69" size="2048" source="CrossTab:Header:X:69:Concat:" type="V_String" />
+                <Field name="70" size="2048" source="CrossTab:Header:X:70:Concat:" type="V_String" />
+                <Field name="71" size="2048" source="CrossTab:Header:X:71:Concat:" type="V_String" />
+                <Field name="72" size="2048" source="CrossTab:Header:X:72:Concat:" type="V_String" />
+                <Field name="73" size="2048" source="CrossTab:Header:X:73:Concat:" type="V_String" />
+                <Field name="74" size="2048" source="CrossTab:Header:X:74:Concat:" type="V_String" />
+                <Field name="75" size="2048" source="CrossTab:Header:X:75:Concat:" type="V_String" />
+                <Field name="76" size="2048" source="CrossTab:Header:X:76:Concat:" type="V_String" />
+                <Field name="77" size="2048" source="CrossTab:Header:X:77:Concat:" type="V_String" />
+                <Field name="78" size="2048" source="CrossTab:Header:X:78:Concat:" type="V_String" />
+                <Field name="79" size="2048" source="CrossTab:Header:X:79:Concat:" type="V_String" />
+                <Field name="80" size="2048" source="CrossTab:Header:X:80:Concat:" type="V_String" />
+                <Field name="81" size="2048" source="CrossTab:Header:X:81:Concat:" type="V_String" />
+                <Field name="82" size="2048" source="CrossTab:Header:X:82:Concat:" type="V_String" />
+                <Field name="83" size="2048" source="CrossTab:Header:X:83:Concat:" type="V_String" />
+                <Field name="84" size="2048" source="CrossTab:Header:X:84:Concat:" type="V_String" />
+                <Field name="85" size="2048" source="CrossTab:Header:X:85:Concat:" type="V_String" />
+                <Field name="86" size="2048" source="CrossTab:Header:X:86:Concat:" type="V_String" />
+                <Field name="87" size="2048" source="CrossTab:Header:X:87:Concat:" type="V_String" />
+                <Field name="88" size="2048" source="CrossTab:Header:X:88:Concat:" type="V_String" />
+                <Field name="89" size="2048" source="CrossTab:Header:X:89:Concat:" type="V_String" />
+                <Field name="90" size="2048" source="CrossTab:Header:X:90:Concat:" type="V_String" />
+                <Field name="91" size="2048" source="CrossTab:Header:X:91:Concat:" type="V_String" />
+                <Field name="92" size="2048" source="CrossTab:Header:X:92:Concat:" type="V_String" />
+                <Field name="93" size="2048" source="CrossTab:Header:X:93:Concat:" type="V_String" />
+                <Field name="94" size="2048" source="CrossTab:Header:X:94:Concat:" type="V_String" />
+                <Field name="95" size="2048" source="CrossTab:Header:X:95:Concat:" type="V_String" />
+                <Field name="96" size="2048" source="CrossTab:Header:X:96:Concat:" type="V_String" />
+                <Field name="97" size="2048" source="CrossTab:Header:X:97:Concat:" type="V_String" />
+                <Field name="98" size="2048" source="CrossTab:Header:X:98:Concat:" type="V_String" />
+                <Field name="99" size="2048" source="CrossTab:Header:X:99:Concat:" type="V_String" />
+                <Field name="100" size="2048" source="CrossTab:Header:X:100:Concat:" type="V_String" />
+                <Field name="101" size="2048" source="CrossTab:Header:X:101:Concat:" type="V_String" />
+                <Field name="102" size="2048" source="CrossTab:Header:X:102:Concat:" type="V_String" />
+                <Field name="103" size="2048" source="CrossTab:Header:X:103:Concat:" type="V_String" />
+                <Field name="104" size="2048" source="CrossTab:Header:X:104:Concat:" type="V_String" />
+                <Field name="105" size="2048" source="CrossTab:Header:X:105:Concat:" type="V_String" />
+                <Field name="106" size="2048" source="CrossTab:Header:X:106:Concat:" type="V_String" />
+                <Field name="107" size="2048" source="CrossTab:Header:X:107:Concat:" type="V_String" />
+                <Field name="108" size="2048" source="CrossTab:Header:X:108:Concat:" type="V_String" />
+                <Field name="109" size="2048" source="CrossTab:Header:X:109:Concat:" type="V_String" />
+                <Field name="110" size="2048" source="CrossTab:Header:X:110:Concat:" type="V_String" />
+                <Field name="111" size="2048" source="CrossTab:Header:X:111:Concat:" type="V_String" />
+                <Field name="112" size="2048" source="CrossTab:Header:X:112:Concat:" type="V_String" />
+                <Field name="113" size="2048" source="CrossTab:Header:X:113:Concat:" type="V_String" />
+                <Field name="114" size="2048" source="CrossTab:Header:X:114:Concat:" type="V_String" />
+                <Field name="115" size="2048" source="CrossTab:Header:X:115:Concat:" type="V_String" />
+                <Field name="116" size="2048" source="CrossTab:Header:X:116:Concat:" type="V_String" />
+                <Field name="117" size="2048" source="CrossTab:Header:X:117:Concat:" type="V_String" />
+                <Field name="118" size="2048" source="CrossTab:Header:X:118:Concat:" type="V_String" />
+                <Field name="119" size="2048" source="CrossTab:Header:X:119:Concat:" type="V_String" />
+                <Field name="120" size="2048" source="CrossTab:Header:X:120:Concat:" type="V_String" />
+                <Field name="121" size="2048" source="CrossTab:Header:X:121:Concat:" type="V_String" />
+                <Field name="122" size="2048" source="CrossTab:Header:X:122:Concat:" type="V_String" />
+                <Field name="123" size="2048" source="CrossTab:Header:X:123:Concat:" type="V_String" />
+                <Field name="124" size="2048" source="CrossTab:Header:X:124:Concat:" type="V_String" />
+                <Field name="125" size="2048" source="CrossTab:Header:X:125:Concat:" type="V_String" />
+                <Field name="126" size="2048" source="CrossTab:Header:X:126:Concat:" type="V_String" />
+                <Field name="127" size="2048" source="CrossTab:Header:X:127:Concat:" type="V_String" />
+                <Field name="128" size="2048" source="CrossTab:Header:X:128:Concat:" type="V_String" />
+                <Field name="129" size="2048" source="CrossTab:Header:X:129:Concat:" type="V_String" />
+                <Field name="130" size="2048" source="CrossTab:Header:X:130:Concat:" type="V_String" />
+                <Field name="131" size="2048" source="CrossTab:Header:X:131:Concat:" type="V_String" />
+                <Field name="132" size="2048" source="CrossTab:Header:X:132:Concat:" type="V_String" />
+                <Field name="133" size="2048" source="CrossTab:Header:X:133:Concat:" type="V_String" />
+                <Field name="134" size="2048" source="CrossTab:Header:X:134:Concat:" type="V_String" />
+                <Field name="135" size="2048" source="CrossTab:Header:X:135:Concat:" type="V_String" />
+                <Field name="136" size="2048" source="CrossTab:Header:X:136:Concat:" type="V_String" />
+                <Field name="137" size="2048" source="CrossTab:Header:X:137:Concat:" type="V_String" />
+                <Field name="138" size="2048" source="CrossTab:Header:X:138:Concat:" type="V_String" />
+                <Field name="139" size="2048" source="CrossTab:Header:X:139:Concat:" type="V_String" />
+                <Field name="140" size="2048" source="CrossTab:Header:X:140:Concat:" type="V_String" />
+                <Field name="141" size="2048" source="CrossTab:Header:X:141:Concat:" type="V_String" />
+                <Field name="142" size="2048" source="CrossTab:Header:X:142:Concat:" type="V_String" />
+                <Field name="143" size="2048" source="CrossTab:Header:X:143:Concat:" type="V_String" />
+                <Field name="144" size="2048" source="CrossTab:Header:X:144:Concat:" type="V_String" />
+                <Field name="145" size="2048" source="CrossTab:Header:X:145:Concat:" type="V_String" />
+                <Field name="146" size="2048" source="CrossTab:Header:X:146:Concat:" type="V_String" />
+                <Field name="147" size="2048" source="CrossTab:Header:X:147:Concat:" type="V_String" />
+                <Field name="148" size="2048" source="CrossTab:Header:X:148:Concat:" type="V_String" />
+                <Field name="149" size="2048" source="CrossTab:Header:X:149:Concat:" type="V_String" />
+                <Field name="150" size="2048" source="CrossTab:Header:X:150:Concat:" type="V_String" />
+                <Field name="151" size="2048" source="CrossTab:Header:X:151:Concat:" type="V_String" />
+                <Field name="152" size="2048" source="CrossTab:Header:X:152:Concat:" type="V_String" />
+                <Field name="153" size="2048" source="CrossTab:Header:X:153:Concat:" type="V_String" />
+                <Field name="154" size="2048" source="CrossTab:Header:X:154:Concat:" type="V_String" />
+                <Field name="155" size="2048" source="CrossTab:Header:X:155:Concat:" type="V_String" />
+                <Field name="156" size="2048" source="CrossTab:Header:X:156:Concat:" type="V_String" />
+                <Field name="157" size="2048" source="CrossTab:Header:X:157:Concat:" type="V_String" />
+                <Field name="158" size="2048" source="CrossTab:Header:X:158:Concat:" type="V_String" />
+                <Field name="159" size="2048" source="CrossTab:Header:X:159:Concat:" type="V_String" />
+                <Field name="160" size="2048" source="CrossTab:Header:X:160:Concat:" type="V_String" />
+                <Field name="161" size="2048" source="CrossTab:Header:X:161:Concat:" type="V_String" />
+                <Field name="162" size="2048" source="CrossTab:Header:X:162:Concat:" type="V_String" />
+                <Field name="163" size="2048" source="CrossTab:Header:X:163:Concat:" type="V_String" />
+                <Field name="164" size="2048" source="CrossTab:Header:X:164:Concat:" type="V_String" />
+                <Field name="165" size="2048" source="CrossTab:Header:X:165:Concat:" type="V_String" />
+                <Field name="166" size="2048" source="CrossTab:Header:X:166:Concat:" type="V_String" />
+                <Field name="167" size="2048" source="CrossTab:Header:X:167:Concat:" type="V_String" />
+                <Field name="168" size="2048" source="CrossTab:Header:X:168:Concat:" type="V_String" />
+                <Field name="169" size="2048" source="CrossTab:Header:X:169:Concat:" type="V_String" />
+                <Field name="170" size="2048" source="CrossTab:Header:X:170:Concat:" type="V_String" />
+                <Field name="171" size="2048" source="CrossTab:Header:X:171:Concat:" type="V_String" />
+                <Field name="172" size="2048" source="CrossTab:Header:X:172:Concat:" type="V_String" />
+                <Field name="173" size="2048" source="CrossTab:Header:X:173:Concat:" type="V_String" />
+                <Field name="174" size="2048" source="CrossTab:Header:X:174:Concat:" type="V_String" />
+                <Field name="175" size="2048" source="CrossTab:Header:X:175:Concat:" type="V_String" />
+                <Field name="176" size="2048" source="CrossTab:Header:X:176:Concat:" type="V_String" />
+                <Field name="177" size="2048" source="CrossTab:Header:X:177:Concat:" type="V_String" />
+                <Field name="178" size="2048" source="CrossTab:Header:X:178:Concat:" type="V_String" />
+                <Field name="179" size="2048" source="CrossTab:Header:X:179:Concat:" type="V_String" />
+                <Field name="180" size="2048" source="CrossTab:Header:X:180:Concat:" type="V_String" />
+                <Field name="181" size="2048" source="CrossTab:Header:X:181:Concat:" type="V_String" />
+                <Field name="182" size="2048" source="CrossTab:Header:X:182:Concat:" type="V_String" />
+                <Field name="183" size="2048" source="CrossTab:Header:X:183:Concat:" type="V_String" />
+                <Field name="184" size="2048" source="CrossTab:Header:X:184:Concat:" type="V_String" />
+                <Field name="185" size="2048" source="CrossTab:Header:X:185:Concat:" type="V_String" />
+                <Field name="186" size="2048" source="CrossTab:Header:X:186:Concat:" type="V_String" />
+                <Field name="187" size="2048" source="CrossTab:Header:X:187:Concat:" type="V_String" />
+                <Field name="188" size="2048" source="CrossTab:Header:X:188:Concat:" type="V_String" />
+                <Field name="189" size="2048" source="CrossTab:Header:X:189:Concat:" type="V_String" />
+                <Field name="190" size="2048" source="CrossTab:Header:X:190:Concat:" type="V_String" />
+                <Field name="191" size="2048" source="CrossTab:Header:X:191:Concat:" type="V_String" />
+                <Field name="192" size="2048" source="CrossTab:Header:X:192:Concat:" type="V_String" />
+                <Field name="193" size="2048" source="CrossTab:Header:X:193:Concat:" type="V_String" />
+                <Field name="194" size="2048" source="CrossTab:Header:X:194:Concat:" type="V_String" />
+                <Field name="195" size="2048" source="CrossTab:Header:X:195:Concat:" type="V_String" />
+                <Field name="196" size="2048" source="CrossTab:Header:X:196:Concat:" type="V_String" />
+                <Field name="197" size="2048" source="CrossTab:Header:X:197:Concat:" type="V_String" />
+                <Field name="198" size="2048" source="CrossTab:Header:X:198:Concat:" type="V_String" />
+                <Field name="199" size="2048" source="CrossTab:Header:X:199:Concat:" type="V_String" />
+                <Field name="200" size="2048" source="CrossTab:Header:X:200:Concat:" type="V_String" />
+                <Field name="201" size="2048" source="CrossTab:Header:X:201:Concat:" type="V_String" />
+                <Field name="202" size="2048" source="CrossTab:Header:X:202:Concat:" type="V_String" />
+                <Field name="203" size="2048" source="CrossTab:Header:X:203:Concat:" type="V_String" />
+                <Field name="204" size="2048" source="CrossTab:Header:X:204:Concat:" type="V_String" />
+                <Field name="205" size="2048" source="CrossTab:Header:X:205:Concat:" type="V_String" />
+                <Field name="206" size="2048" source="CrossTab:Header:X:206:Concat:" type="V_String" />
+                <Field name="207" size="2048" source="CrossTab:Header:X:207:Concat:" type="V_String" />
+                <Field name="208" size="2048" source="CrossTab:Header:X:208:Concat:" type="V_String" />
+                <Field name="209" size="2048" source="CrossTab:Header:X:209:Concat:" type="V_String" />
+                <Field name="210" size="2048" source="CrossTab:Header:X:210:Concat:" type="V_String" />
+                <Field name="211" size="2048" source="CrossTab:Header:X:211:Concat:" type="V_String" />
+                <Field name="212" size="2048" source="CrossTab:Header:X:212:Concat:" type="V_String" />
+                <Field name="213" size="2048" source="CrossTab:Header:X:213:Concat:" type="V_String" />
+                <Field name="214" size="2048" source="CrossTab:Header:X:214:Concat:" type="V_String" />
+                <Field name="215" size="2048" source="CrossTab:Header:X:215:Concat:" type="V_String" />
+                <Field name="216" size="2048" source="CrossTab:Header:X:216:Concat:" type="V_String" />
+                <Field name="217" size="2048" source="CrossTab:Header:X:217:Concat:" type="V_String" />
+                <Field name="218" size="2048" source="CrossTab:Header:X:218:Concat:" type="V_String" />
+                <Field name="219" size="2048" source="CrossTab:Header:X:219:Concat:" type="V_String" />
+                <Field name="220" size="2048" source="CrossTab:Header:X:220:Concat:" type="V_String" />
+                <Field name="221" size="2048" source="CrossTab:Header:X:221:Concat:" type="V_String" />
+                <Field name="222" size="2048" source="CrossTab:Header:X:222:Concat:" type="V_String" />
+                <Field name="223" size="2048" source="CrossTab:Header:X:223:Concat:" type="V_String" />
+                <Field name="224" size="2048" source="CrossTab:Header:X:224:Concat:" type="V_String" />
+                <Field name="225" size="2048" source="CrossTab:Header:X:225:Concat:" type="V_String" />
+                <Field name="226" size="2048" source="CrossTab:Header:X:226:Concat:" type="V_String" />
+                <Field name="227" size="2048" source="CrossTab:Header:X:227:Concat:" type="V_String" />
+                <Field name="228" size="2048" source="CrossTab:Header:X:228:Concat:" type="V_String" />
+                <Field name="229" size="2048" source="CrossTab:Header:X:229:Concat:" type="V_String" />
+                <Field name="230" size="2048" source="CrossTab:Header:X:230:Concat:" type="V_String" />
+                <Field name="231" size="2048" source="CrossTab:Header:X:231:Concat:" type="V_String" />
+                <Field name="232" size="2048" source="CrossTab:Header:X:232:Concat:" type="V_String" />
+                <Field name="233" size="2048" source="CrossTab:Header:X:233:Concat:" type="V_String" />
+                <Field name="234" size="2048" source="CrossTab:Header:X:234:Concat:" type="V_String" />
+                <Field name="235" size="2048" source="CrossTab:Header:X:235:Concat:" type="V_String" />
+                <Field name="236" size="2048" source="CrossTab:Header:X:236:Concat:" type="V_String" />
+                <Field name="237" size="2048" source="CrossTab:Header:X:237:Concat:" type="V_String" />
+                <Field name="238" size="2048" source="CrossTab:Header:X:238:Concat:" type="V_String" />
+                <Field name="239" size="2048" source="CrossTab:Header:X:239:Concat:" type="V_String" />
+                <Field name="240" size="2048" source="CrossTab:Header:X:240:Concat:" type="V_String" />
+                <Field name="241" size="2048" source="CrossTab:Header:X:241:Concat:" type="V_String" />
+                <Field name="242" size="2048" source="CrossTab:Header:X:242:Concat:" type="V_String" />
+                <Field name="243" size="2048" source="CrossTab:Header:X:243:Concat:" type="V_String" />
+                <Field name="244" size="2048" source="CrossTab:Header:X:244:Concat:" type="V_String" />
+                <Field name="245" size="2048" source="CrossTab:Header:X:245:Concat:" type="V_String" />
+                <Field name="246" size="2048" source="CrossTab:Header:X:246:Concat:" type="V_String" />
+                <Field name="247" size="2048" source="CrossTab:Header:X:247:Concat:" type="V_String" />
+                <Field name="248" size="2048" source="CrossTab:Header:X:248:Concat:" type="V_String" />
+                <Field name="249" size="2048" source="CrossTab:Header:X:249:Concat:" type="V_String" />
+                <Field name="250" size="2048" source="CrossTab:Header:X:250:Concat:" type="V_String" />
+                <Field name="251" size="2048" source="CrossTab:Header:X:251:Concat:" type="V_String" />
+                <Field name="252" size="2048" source="CrossTab:Header:X:252:Concat:" type="V_String" />
+                <Field name="253" size="2048" source="CrossTab:Header:X:253:Concat:" type="V_String" />
+                <Field name="254" size="2048" source="CrossTab:Header:X:254:Concat:" type="V_String" />
+                <Field name="255" size="2048" source="CrossTab:Header:X:255:Concat:" type="V_String" />
+                <Field name="256" size="2048" source="CrossTab:Header:X:256:Concat:" type="V_String" />
+                <Field name="257" size="2048" source="CrossTab:Header:X:257:Concat:" type="V_String" />
+                <Field name="258" size="2048" source="CrossTab:Header:X:258:Concat:" type="V_String" />
+                <Field name="259" size="2048" source="CrossTab:Header:X:259:Concat:" type="V_String" />
+                <Field name="260" size="2048" source="CrossTab:Header:X:260:Concat:" type="V_String" />
+                <Field name="261" size="2048" source="CrossTab:Header:X:261:Concat:" type="V_String" />
+                <Field name="262" size="2048" source="CrossTab:Header:X:262:Concat:" type="V_String" />
+                <Field name="263" size="2048" source="CrossTab:Header:X:263:Concat:" type="V_String" />
+                <Field name="264" size="2048" source="CrossTab:Header:X:264:Concat:" type="V_String" />
+                <Field name="265" size="2048" source="CrossTab:Header:X:265:Concat:" type="V_String" />
+                <Field name="266" size="2048" source="CrossTab:Header:X:266:Concat:" type="V_String" />
+                <Field name="267" size="2048" source="CrossTab:Header:X:267:Concat:" type="V_String" />
+                <Field name="268" size="2048" source="CrossTab:Header:X:268:Concat:" type="V_String" />
+                <Field name="269" size="2048" source="CrossTab:Header:X:269:Concat:" type="V_String" />
+                <Field name="270" size="2048" source="CrossTab:Header:X:270:Concat:" type="V_String" />
+                <Field name="271" size="2048" source="CrossTab:Header:X:271:Concat:" type="V_String" />
+                <Field name="272" size="2048" source="CrossTab:Header:X:272:Concat:" type="V_String" />
+                <Field name="273" size="2048" source="CrossTab:Header:X:273:Concat:" type="V_String" />
+                <Field name="274" size="2048" source="CrossTab:Header:X:274:Concat:" type="V_String" />
+                <Field name="275" size="2048" source="CrossTab:Header:X:275:Concat:" type="V_String" />
+                <Field name="276" size="2048" source="CrossTab:Header:X:276:Concat:" type="V_String" />
+                <Field name="277" size="2048" source="CrossTab:Header:X:277:Concat:" type="V_String" />
+                <Field name="278" size="2048" source="CrossTab:Header:X:278:Concat:" type="V_String" />
+                <Field name="279" size="2048" source="CrossTab:Header:X:279:Concat:" type="V_String" />
+                <Field name="280" size="2048" source="CrossTab:Header:X:280:Concat:" type="V_String" />
+                <Field name="281" size="2048" source="CrossTab:Header:X:281:Concat:" type="V_String" />
+                <Field name="282" size="2048" source="CrossTab:Header:X:282:Concat:" type="V_String" />
+                <Field name="283" size="2048" source="CrossTab:Header:X:283:Concat:" type="V_String" />
+                <Field name="284" size="2048" source="CrossTab:Header:X:284:Concat:" type="V_String" />
+                <Field name="285" size="2048" source="CrossTab:Header:X:285:Concat:" type="V_String" />
+                <Field name="286" size="2048" source="CrossTab:Header:X:286:Concat:" type="V_String" />
+                <Field name="287" size="2048" source="CrossTab:Header:X:287:Concat:" type="V_String" />
+                <Field name="288" size="2048" source="CrossTab:Header:X:288:Concat:" type="V_String" />
+                <Field name="289" size="2048" source="CrossTab:Header:X:289:Concat:" type="V_String" />
+                <Field name="290" size="2048" source="CrossTab:Header:X:290:Concat:" type="V_String" />
+                <Field name="291" size="2048" source="CrossTab:Header:X:291:Concat:" type="V_String" />
+                <Field name="292" size="2048" source="CrossTab:Header:X:292:Concat:" type="V_String" />
+                <Field name="293" size="2048" source="CrossTab:Header:X:293:Concat:" type="V_String" />
+                <Field name="294" size="2048" source="CrossTab:Header:X:294:Concat:" type="V_String" />
+                <Field name="295" size="2048" source="CrossTab:Header:X:295:Concat:" type="V_String" />
+                <Field name="296" size="2048" source="CrossTab:Header:X:296:Concat:" type="V_String" />
+                <Field name="297" size="2048" source="CrossTab:Header:X:297:Concat:" type="V_String" />
+                <Field name="298" size="2048" source="CrossTab:Header:X:298:Concat:" type="V_String" />
+                <Field name="299" size="2048" source="CrossTab:Header:X:299:Concat:" type="V_String" />
+                <Field name="300" size="2048" source="CrossTab:Header:X:300:Concat:" type="V_String" />
+                <Field name="301" size="2048" source="CrossTab:Header:X:301:Concat:" type="V_String" />
+                <Field name="302" size="2048" source="CrossTab:Header:X:302:Concat:" type="V_String" />
+                <Field name="303" size="2048" source="CrossTab:Header:X:303:Concat:" type="V_String" />
+                <Field name="304" size="2048" source="CrossTab:Header:X:304:Concat:" type="V_String" />
+                <Field name="305" size="2048" source="CrossTab:Header:X:305:Concat:" type="V_String" />
+                <Field name="306" size="2048" source="CrossTab:Header:X:306:Concat:" type="V_String" />
+                <Field name="307" size="2048" source="CrossTab:Header:X:307:Concat:" type="V_String" />
+                <Field name="308" size="2048" source="CrossTab:Header:X:308:Concat:" type="V_String" />
+                <Field name="309" size="2048" source="CrossTab:Header:X:309:Concat:" type="V_String" />
+                <Field name="310" size="2048" source="CrossTab:Header:X:310:Concat:" type="V_String" />
+                <Field name="311" size="2048" source="CrossTab:Header:X:311:Concat:" type="V_String" />
+                <Field name="312" size="2048" source="CrossTab:Header:X:312:Concat:" type="V_String" />
+                <Field name="313" size="2048" source="CrossTab:Header:X:313:Concat:" type="V_String" />
+                <Field name="314" size="2048" source="CrossTab:Header:X:314:Concat:" type="V_String" />
+                <Field name="315" size="2048" source="CrossTab:Header:X:315:Concat:" type="V_String" />
+                <Field name="316" size="2048" source="CrossTab:Header:X:316:Concat:" type="V_String" />
+                <Field name="317" size="2048" source="CrossTab:Header:X:317:Concat:" type="V_String" />
+                <Field name="318" size="2048" source="CrossTab:Header:X:318:Concat:" type="V_String" />
+                <Field name="319" size="2048" source="CrossTab:Header:X:319:Concat:" type="V_String" />
+                <Field name="320" size="2048" source="CrossTab:Header:X:320:Concat:" type="V_String" />
+                <Field name="321" size="2048" source="CrossTab:Header:X:321:Concat:" type="V_String" />
+                <Field name="322" size="2048" source="CrossTab:Header:X:322:Concat:" type="V_String" />
+                <Field name="323" size="2048" source="CrossTab:Header:X:323:Concat:" type="V_String" />
+                <Field name="324" size="2048" source="CrossTab:Header:X:324:Concat:" type="V_String" />
+                <Field name="325" size="2048" source="CrossTab:Header:X:325:Concat:" type="V_String" />
+                <Field name="326" size="2048" source="CrossTab:Header:X:326:Concat:" type="V_String" />
+                <Field name="327" size="2048" source="CrossTab:Header:X:327:Concat:" type="V_String" />
+                <Field name="328" size="2048" source="CrossTab:Header:X:328:Concat:" type="V_String" />
+                <Field name="329" size="2048" source="CrossTab:Header:X:329:Concat:" type="V_String" />
+                <Field name="330" size="2048" source="CrossTab:Header:X:330:Concat:" type="V_String" />
+                <Field name="331" size="2048" source="CrossTab:Header:X:331:Concat:" type="V_String" />
+                <Field name="332" size="2048" source="CrossTab:Header:X:332:Concat:" type="V_String" />
+                <Field name="333" size="2048" source="CrossTab:Header:X:333:Concat:" type="V_String" />
+                <Field name="334" size="2048" source="CrossTab:Header:X:334:Concat:" type="V_String" />
+                <Field name="335" size="2048" source="CrossTab:Header:X:335:Concat:" type="V_String" />
+                <Field name="336" size="2048" source="CrossTab:Header:X:336:Concat:" type="V_String" />
+                <Field name="337" size="2048" source="CrossTab:Header:X:337:Concat:" type="V_String" />
+                <Field name="338" size="2048" source="CrossTab:Header:X:338:Concat:" type="V_String" />
+                <Field name="339" size="2048" source="CrossTab:Header:X:339:Concat:" type="V_String" />
+                <Field name="340" size="2048" source="CrossTab:Header:X:340:Concat:" type="V_String" />
+                <Field name="341" size="2048" source="CrossTab:Header:X:341:Concat:" type="V_String" />
+                <Field name="342" size="2048" source="CrossTab:Header:X:342:Concat:" type="V_String" />
+                <Field name="343" size="2048" source="CrossTab:Header:X:343:Concat:" type="V_String" />
+                <Field name="344" size="2048" source="CrossTab:Header:X:344:Concat:" type="V_String" />
+                <Field name="345" size="2048" source="CrossTab:Header:X:345:Concat:" type="V_String" />
+                <Field name="346" size="2048" source="CrossTab:Header:X:346:Concat:" type="V_String" />
+                <Field name="347" size="2048" source="CrossTab:Header:X:347:Concat:" type="V_String" />
+                <Field name="348" size="2048" source="CrossTab:Header:X:348:Concat:" type="V_String" />
+                <Field name="349" size="2048" source="CrossTab:Header:X:349:Concat:" type="V_String" />
+                <Field name="350" size="2048" source="CrossTab:Header:X:350:Concat:" type="V_String" />
+                <Field name="351" size="2048" source="CrossTab:Header:X:351:Concat:" type="V_String" />
+                <Field name="352" size="2048" source="CrossTab:Header:X:352:Concat:" type="V_String" />
+                <Field name="353" size="2048" source="CrossTab:Header:X:353:Concat:" type="V_String" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Y" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="2070" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1422" y="510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>!IsNull([Source_Coordinate])</Expression>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotNull</Operator>
+                <Field>Source_Coordinate</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-12-05 22:20:21</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2018-12-05 22:20:21</StartDate>
+                  <EndDate>2018-12-05 22:20:21</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([Source_Coordinate])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="60">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1614" y="534.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Source_X" />
+                <Field field="Source_Y" />
+                <Field field="Min_Distance" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Source_X" />
+                <Field field="Source_Y" />
+                <Field field="Distance" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Min_Distance" selected="False" input="Left_" />
+                    <SelectField field="Left_Source_X" selected="False" input="Left_" />
+                    <SelectField field="Left_Source_Y" selected="False" input="Left_" />
+                    <SelectField field="Left_Count" selected="False" input="Left_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="61">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1698" y="533.9998" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Source_X" action="GroupBy" rename="Source_X" />
+                <SummarizeField field="Source_Y" action="GroupBy" rename="Source_Y" />
+                <SummarizeField field="Distance" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="64">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2262" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\NJOHNS~1\AppData\Local\Temp\Engine_22728_8f4cfedd1d134e418332bbf78ae33d45_\Engine_20540_9097f8533a9d43f2be583746c1f4b562_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[GRID ]]></AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="65">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="2442" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="Y" />
+              </KeyFields>
+              <DataFields>
+                <Field field="Y" selected="False" />
+                <Field field="0" selected="True" />
+                <Field field="1" selected="True" />
+                <Field field="2" selected="True" />
+                <Field field="3" selected="True" />
+                <Field field="4" selected="True" />
+                <Field field="5" selected="True" />
+                <Field field="6" selected="True" />
+                <Field field="7" selected="True" />
+                <Field field="8" selected="True" />
+                <Field field="9" selected="True" />
+                <Field field="10" selected="True" />
+                <Field field="11" selected="True" />
+                <Field field="12" selected="True" />
+                <Field field="13" selected="True" />
+                <Field field="14" selected="True" />
+                <Field field="15" selected="True" />
+                <Field field="16" selected="True" />
+                <Field field="17" selected="True" />
+                <Field field="18" selected="True" />
+                <Field field="19" selected="True" />
+                <Field field="20" selected="True" />
+                <Field field="21" selected="True" />
+                <Field field="22" selected="True" />
+                <Field field="23" selected="True" />
+                <Field field="24" selected="True" />
+                <Field field="25" selected="True" />
+                <Field field="26" selected="True" />
+                <Field field="27" selected="True" />
+                <Field field="28" selected="True" />
+                <Field field="29" selected="True" />
+                <Field field="30" selected="True" />
+                <Field field="31" selected="True" />
+                <Field field="32" selected="True" />
+                <Field field="33" selected="True" />
+                <Field field="34" selected="True" />
+                <Field field="35" selected="True" />
+                <Field field="36" selected="True" />
+                <Field field="37" selected="True" />
+                <Field field="38" selected="True" />
+                <Field field="39" selected="True" />
+                <Field field="40" selected="True" />
+                <Field field="41" selected="True" />
+                <Field field="42" selected="True" />
+                <Field field="43" selected="True" />
+                <Field field="44" selected="True" />
+                <Field field="45" selected="True" />
+                <Field field="46" selected="True" />
+                <Field field="47" selected="True" />
+                <Field field="48" selected="True" />
+                <Field field="49" selected="True" />
+                <Field field="50" selected="True" />
+                <Field field="51" selected="True" />
+                <Field field="52" selected="True" />
+                <Field field="53" selected="True" />
+                <Field field="54" selected="True" />
+                <Field field="55" selected="True" />
+                <Field field="56" selected="True" />
+                <Field field="57" selected="True" />
+                <Field field="58" selected="True" />
+                <Field field="59" selected="True" />
+                <Field field="60" selected="True" />
+                <Field field="61" selected="True" />
+                <Field field="62" selected="True" />
+                <Field field="63" selected="True" />
+                <Field field="64" selected="True" />
+                <Field field="65" selected="True" />
+                <Field field="66" selected="True" />
+                <Field field="67" selected="True" />
+                <Field field="68" selected="True" />
+                <Field field="69" selected="True" />
+                <Field field="70" selected="True" />
+                <Field field="71" selected="True" />
+                <Field field="72" selected="True" />
+                <Field field="73" selected="True" />
+                <Field field="74" selected="True" />
+                <Field field="75" selected="True" />
+                <Field field="76" selected="True" />
+                <Field field="77" selected="True" />
+                <Field field="78" selected="True" />
+                <Field field="79" selected="True" />
+                <Field field="80" selected="True" />
+                <Field field="81" selected="True" />
+                <Field field="82" selected="True" />
+                <Field field="83" selected="True" />
+                <Field field="84" selected="True" />
+                <Field field="85" selected="True" />
+                <Field field="86" selected="True" />
+                <Field field="87" selected="True" />
+                <Field field="88" selected="True" />
+                <Field field="89" selected="True" />
+                <Field field="90" selected="True" />
+                <Field field="91" selected="True" />
+                <Field field="92" selected="True" />
+                <Field field="93" selected="True" />
+                <Field field="94" selected="True" />
+                <Field field="95" selected="True" />
+                <Field field="96" selected="True" />
+                <Field field="97" selected="True" />
+                <Field field="98" selected="True" />
+                <Field field="99" selected="True" />
+                <Field field="100" selected="True" />
+                <Field field="101" selected="True" />
+                <Field field="102" selected="True" />
+                <Field field="103" selected="True" />
+                <Field field="104" selected="True" />
+                <Field field="105" selected="True" />
+                <Field field="106" selected="True" />
+                <Field field="107" selected="True" />
+                <Field field="108" selected="True" />
+                <Field field="109" selected="True" />
+                <Field field="110" selected="True" />
+                <Field field="111" selected="True" />
+                <Field field="112" selected="True" />
+                <Field field="113" selected="True" />
+                <Field field="114" selected="True" />
+                <Field field="115" selected="True" />
+                <Field field="116" selected="True" />
+                <Field field="117" selected="True" />
+                <Field field="118" selected="True" />
+                <Field field="119" selected="True" />
+                <Field field="120" selected="True" />
+                <Field field="121" selected="True" />
+                <Field field="122" selected="True" />
+                <Field field="123" selected="True" />
+                <Field field="124" selected="True" />
+                <Field field="125" selected="True" />
+                <Field field="126" selected="True" />
+                <Field field="127" selected="True" />
+                <Field field="128" selected="True" />
+                <Field field="129" selected="True" />
+                <Field field="130" selected="True" />
+                <Field field="131" selected="True" />
+                <Field field="132" selected="True" />
+                <Field field="133" selected="True" />
+                <Field field="134" selected="True" />
+                <Field field="135" selected="True" />
+                <Field field="136" selected="True" />
+                <Field field="137" selected="True" />
+                <Field field="138" selected="True" />
+                <Field field="139" selected="True" />
+                <Field field="140" selected="True" />
+                <Field field="141" selected="True" />
+                <Field field="142" selected="True" />
+                <Field field="143" selected="True" />
+                <Field field="144" selected="True" />
+                <Field field="145" selected="True" />
+                <Field field="146" selected="True" />
+                <Field field="147" selected="True" />
+                <Field field="148" selected="True" />
+                <Field field="149" selected="True" />
+                <Field field="150" selected="True" />
+                <Field field="151" selected="True" />
+                <Field field="152" selected="True" />
+                <Field field="153" selected="True" />
+                <Field field="154" selected="True" />
+                <Field field="155" selected="True" />
+                <Field field="156" selected="True" />
+                <Field field="157" selected="True" />
+                <Field field="158" selected="True" />
+                <Field field="159" selected="True" />
+                <Field field="160" selected="True" />
+                <Field field="161" selected="True" />
+                <Field field="162" selected="True" />
+                <Field field="163" selected="True" />
+                <Field field="164" selected="True" />
+                <Field field="165" selected="True" />
+                <Field field="166" selected="True" />
+                <Field field="167" selected="True" />
+                <Field field="168" selected="True" />
+                <Field field="169" selected="True" />
+                <Field field="170" selected="True" />
+                <Field field="171" selected="True" />
+                <Field field="172" selected="True" />
+                <Field field="173" selected="True" />
+                <Field field="174" selected="True" />
+                <Field field="175" selected="True" />
+                <Field field="176" selected="True" />
+                <Field field="177" selected="True" />
+                <Field field="178" selected="True" />
+                <Field field="179" selected="True" />
+                <Field field="180" selected="True" />
+                <Field field="181" selected="True" />
+                <Field field="182" selected="True" />
+                <Field field="183" selected="True" />
+                <Field field="184" selected="True" />
+                <Field field="185" selected="True" />
+                <Field field="186" selected="True" />
+                <Field field="187" selected="True" />
+                <Field field="188" selected="True" />
+                <Field field="189" selected="True" />
+                <Field field="190" selected="True" />
+                <Field field="191" selected="True" />
+                <Field field="192" selected="True" />
+                <Field field="193" selected="True" />
+                <Field field="194" selected="True" />
+                <Field field="195" selected="True" />
+                <Field field="196" selected="True" />
+                <Field field="197" selected="True" />
+                <Field field="198" selected="True" />
+                <Field field="199" selected="True" />
+                <Field field="200" selected="True" />
+                <Field field="201" selected="True" />
+                <Field field="202" selected="True" />
+                <Field field="203" selected="True" />
+                <Field field="204" selected="True" />
+                <Field field="205" selected="True" />
+                <Field field="206" selected="True" />
+                <Field field="207" selected="True" />
+                <Field field="208" selected="True" />
+                <Field field="209" selected="True" />
+                <Field field="210" selected="True" />
+                <Field field="211" selected="True" />
+                <Field field="212" selected="True" />
+                <Field field="213" selected="True" />
+                <Field field="214" selected="True" />
+                <Field field="215" selected="True" />
+                <Field field="216" selected="True" />
+                <Field field="217" selected="True" />
+                <Field field="218" selected="True" />
+                <Field field="219" selected="True" />
+                <Field field="220" selected="True" />
+                <Field field="221" selected="True" />
+                <Field field="222" selected="True" />
+                <Field field="223" selected="True" />
+                <Field field="224" selected="True" />
+                <Field field="225" selected="True" />
+                <Field field="226" selected="True" />
+                <Field field="227" selected="True" />
+                <Field field="228" selected="True" />
+                <Field field="229" selected="True" />
+                <Field field="230" selected="True" />
+                <Field field="231" selected="True" />
+                <Field field="232" selected="True" />
+                <Field field="233" selected="True" />
+                <Field field="234" selected="True" />
+                <Field field="235" selected="True" />
+                <Field field="236" selected="True" />
+                <Field field="237" selected="True" />
+                <Field field="238" selected="True" />
+                <Field field="239" selected="True" />
+                <Field field="240" selected="True" />
+                <Field field="241" selected="True" />
+                <Field field="242" selected="True" />
+                <Field field="243" selected="True" />
+                <Field field="244" selected="True" />
+                <Field field="245" selected="True" />
+                <Field field="246" selected="True" />
+                <Field field="247" selected="True" />
+                <Field field="248" selected="True" />
+                <Field field="249" selected="True" />
+                <Field field="250" selected="True" />
+                <Field field="251" selected="True" />
+                <Field field="252" selected="True" />
+                <Field field="253" selected="True" />
+                <Field field="254" selected="True" />
+                <Field field="255" selected="True" />
+                <Field field="256" selected="True" />
+                <Field field="257" selected="True" />
+                <Field field="258" selected="True" />
+                <Field field="259" selected="True" />
+                <Field field="260" selected="True" />
+                <Field field="261" selected="True" />
+                <Field field="262" selected="True" />
+                <Field field="263" selected="True" />
+                <Field field="264" selected="True" />
+                <Field field="265" selected="True" />
+                <Field field="266" selected="True" />
+                <Field field="267" selected="True" />
+                <Field field="268" selected="True" />
+                <Field field="269" selected="True" />
+                <Field field="270" selected="True" />
+                <Field field="271" selected="True" />
+                <Field field="272" selected="True" />
+                <Field field="273" selected="True" />
+                <Field field="274" selected="True" />
+                <Field field="275" selected="True" />
+                <Field field="276" selected="True" />
+                <Field field="277" selected="True" />
+                <Field field="278" selected="True" />
+                <Field field="279" selected="True" />
+                <Field field="280" selected="True" />
+                <Field field="281" selected="True" />
+                <Field field="282" selected="True" />
+                <Field field="283" selected="True" />
+                <Field field="284" selected="True" />
+                <Field field="285" selected="True" />
+                <Field field="286" selected="True" />
+                <Field field="287" selected="True" />
+                <Field field="288" selected="True" />
+                <Field field="289" selected="True" />
+                <Field field="290" selected="True" />
+                <Field field="291" selected="True" />
+                <Field field="292" selected="True" />
+                <Field field="293" selected="True" />
+                <Field field="294" selected="True" />
+                <Field field="295" selected="True" />
+                <Field field="296" selected="True" />
+                <Field field="297" selected="True" />
+                <Field field="298" selected="True" />
+                <Field field="299" selected="True" />
+                <Field field="300" selected="True" />
+                <Field field="301" selected="True" />
+                <Field field="302" selected="True" />
+                <Field field="303" selected="True" />
+                <Field field="304" selected="True" />
+                <Field field="305" selected="True" />
+                <Field field="306" selected="True" />
+                <Field field="307" selected="True" />
+                <Field field="308" selected="True" />
+                <Field field="309" selected="True" />
+                <Field field="310" selected="True" />
+                <Field field="311" selected="True" />
+                <Field field="312" selected="True" />
+                <Field field="313" selected="True" />
+                <Field field="314" selected="True" />
+                <Field field="315" selected="True" />
+                <Field field="316" selected="True" />
+                <Field field="317" selected="True" />
+                <Field field="318" selected="True" />
+                <Field field="319" selected="True" />
+                <Field field="320" selected="True" />
+                <Field field="321" selected="True" />
+                <Field field="322" selected="True" />
+                <Field field="323" selected="True" />
+                <Field field="324" selected="True" />
+                <Field field="325" selected="True" />
+                <Field field="326" selected="True" />
+                <Field field="327" selected="True" />
+                <Field field="328" selected="True" />
+                <Field field="329" selected="True" />
+                <Field field="330" selected="True" />
+                <Field field="331" selected="True" />
+                <Field field="332" selected="True" />
+                <Field field="333" selected="True" />
+                <Field field="334" selected="True" />
+                <Field field="335" selected="True" />
+                <Field field="336" selected="True" />
+                <Field field="337" selected="True" />
+                <Field field="338" selected="True" />
+                <Field field="339" selected="True" />
+                <Field field="340" selected="True" />
+                <Field field="341" selected="True" />
+                <Field field="342" selected="True" />
+                <Field field="343" selected="True" />
+                <Field field="344" selected="True" />
+                <Field field="345" selected="True" />
+                <Field field="346" selected="True" />
+                <Field field="347" selected="True" />
+                <Field field="348" selected="True" />
+                <Field field="349" selected="True" />
+                <Field field="350" selected="True" />
+                <Field field="351" selected="True" />
+                <Field field="352" selected="True" />
+                <Field field="353" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="2538" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Y" action="Min" rename="Min_Y" />
+                <SummarizeField field="Y" action="Max" rename="Max_Y" />
+                <SummarizeField field="Name" action="Min" rename="Min_X" />
+                <SummarizeField field="Name" action="Max" rename="Max_X" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="67">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="2742" y="534" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Value" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Y" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Name" selected="True" rename="Right_Name" input="Right_" />
+                    <SelectField field="Right_Value" selected="True" rename="Right_Value" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="68">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="2634" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields />
+              <DataFields>
+                <Field field="Min_Y" selected="True" />
+                <Field field="Max_Y" selected="True" />
+                <Field field="Min_X" selected="False" />
+                <Field field="Max_X" selected="False" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="69">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="2826" y="534" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Right_Value" action="GroupBy" rename="Right_Value" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2934" y="534" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\NJOHNS~1\AppData\Local\Temp\Engine_22728_8f4cfedd1d134e418332bbf78ae33d45_\Engine_20540_2ffd565fc3b84ea497cd75e5d291d712_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Y infinity to exclude</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="2742" y="642" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Value" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Name" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Name" selected="True" rename="Right_Name" input="Right_" />
+                    <SelectField field="Right_Value" selected="True" rename="Right_Value" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="72">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="2634" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields />
+              <DataFields>
+                <Field field="Min_Y" selected="False" />
+                <Field field="Max_Y" selected="False" />
+                <Field field="Min_X" selected="True" />
+                <Field field="Max_X" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="73">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="2826" y="642" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Right_Value" action="GroupBy" rename="Right_Value" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="74">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2934" y="642" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\NJOHNS~1\AppData\Local\Temp\Engine_22728_8f4cfedd1d134e418332bbf78ae33d45_\Engine_20540_55839dfc2d624794958ba0d60e883b24_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>X infinity to exclude</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="75">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="3042" y="582" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="76">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="3138" y="582" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Right_Value" action="GroupBy" rename="Right_Value" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="77">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="3246" y="570" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Value" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Right_Value" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="78">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="3330" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Value" action="GroupBy" rename="Value" />
+                <SummarizeField field="Value" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="79">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="3414" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Count]+1" field="Count" size="8" type="Int64" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Count = [Count]+1
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="80">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="3510" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Count" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Count - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="81">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="3594" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>First</Mode>
+              <N>1</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>First 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="82">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="3690" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\NJOHNS~1\AppData\Local\Temp\Engine_22728_8f4cfedd1d134e418332bbf78ae33d45_\Engine_20540_646152e580604fd8a59508b33dacab7e_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Part 1</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output26" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="40" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="40" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="40" Connection="Join" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="40" Connection="Right" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="46" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="True" />
+      <Destination ToolID="46" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="86" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="True" />
+      <Destination ToolID="86" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="83" Connection="Output" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="86" Connection="Output" />
+      <Destination ToolID="87" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="87" Connection="Output" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="88" Connection="True" />
+      <Destination ToolID="90" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="90" Connection="Output9" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="False" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="60" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="False" />
+      <Destination ToolID="60" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="False" />
+      <Destination ToolID="53" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Join" />
+      <Destination ToolID="53" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Join" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="False" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Join" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="67" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="67" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="71" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="71" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="77" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Output" />
+      <Destination ToolID="77" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Join" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Join" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Left" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="Output" />
+      <Destination ToolID="79" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="80" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Output" />
+      <Destination ToolID="81" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Output" />
+      <Destination ToolID="82" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Day 6</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
